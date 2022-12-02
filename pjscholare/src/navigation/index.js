@@ -7,8 +7,8 @@ export default props => (
     <NavigationContainer>
         <Stack />
     </NavigationContainer>
-
-
 )
+
+
 
 

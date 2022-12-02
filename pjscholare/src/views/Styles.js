@@ -3,31 +3,32 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     background: {
-        flex:1,
+        flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#ffff',
-},
-containerlogo:{
-    flex:1,
     },
-    container:{
-        flex:1,
+    containerlogo: {
+        flex: 1,
+        padding: 40
+    },
+    container: {
+        flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
         width: '90%',
     },
-    input:{
-        backgroundColor: '#E3E3E3',
+    input: {
+        backgroundColor: '#706f6f',
         width: '90%',
         marginBottom: 15,
-        color:'#222',
+        color: '#000000',
         fontSize: 16,
         borderRadius: 7,
         padding: 10,
         fontFamily: 'poppins'
     },
-    buttonSubmit:{
+    buttonSubmit: {
         backgroundColor: '#0e6ef7',
         width: '90%',
         height: 45,
@@ -36,16 +37,16 @@ containerlogo:{
         borderRadius: 7,
         fontFamily: 'poppins'
     },
-    textSubmit:{
+    textSubmit: {
         color: '#fff',
         fontSize: 18,
         fontFamily: 'poppins'
     },
-    textSimple:{
-    flex: 1,
-    color: '#000000',
-    fontSize: 20,
-    fontFamily: 'poppins'
+    textSimple: {
+        flex: 1,
+        color: '#000000',
+        fontSize: 20,
+        fontFamily: 'poppins'
     },
 
     button: {
@@ -63,23 +64,23 @@ containerlogo:{
         padding: 10
     },
     containerAdd: {
-        flex:1,
+        flex: 1,
         alignItems: 'flex-start',
         justifyContent: 'flex-start',
         padding: 10
 
     },
-    text:{
+    text: {
         color: '#000000',
         fontSize: 20,
         fontFamily: 'poppins',
         alignItems: 'flex-start',
         justifyContent: 'flex-start',
         flexDirection: 'row',
-        padding:5
+        padding: 5
     },
     containerText: {
-        flex:1,
+        flex: 1,
         alignItems: 'flex-start',
         justifyContent: 'flex-start'
     },
@@ -91,9 +92,10 @@ containerlogo:{
         justifyContent: 'center',
         borderRadius: 7,
         fontFamily: 'poppins'
-    
+
     }
 
 
-    
+
+
 })

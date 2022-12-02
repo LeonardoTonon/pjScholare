@@ -30,6 +30,8 @@
 		<dict>
 			<key>localhost</key>
 			<dict>
+			<key>NSCameraUsageDescription</key>
+			<string>$(PRODUCT_NAME) needs access to your Camera.</string>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
